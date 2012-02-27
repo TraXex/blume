@@ -1,0 +1,235 @@
+body{font-family:arial;font-size:11px;color:#000000;border:0px solid red;padding:0px;margin:0px;}
+img{
+    border: none;
+}
+body a{text-decoration:none;}
+.bdy{padding:0px auto;margin:0px auto;width:1000px;}
+.clr{clear:both;}
+.fl{float:left}
+.fr{float:right}
+.cl{clear:both;}
+.br{border:1px solid red;}
+.header{height:76px;background:url(./img/bv_04.gif);background-repeat:repeat-x;}
+.headbott{background:url(./img/header-line.gif);background-repeat:repeat-x;height:19px;}
+.menu{height:76px;width:450px;}
+.menutabs{margin-right:15px;padding-bottom:5px;}
+.menutabs a{color:#b1b1b1;font-family:arial;font-size:16px;}
+
+.ctrbdy{background:url(./img/top-bracket.gif);background-repeat:no-repeat;height:auto;}
+.ctrle{line-height:30px;font-size:16px;font-family:arial;color:#484848}
+.ctrrihead{font-size:22px;color:#4c4c4c;}
+.ctrriheadabtrd{font-size:22px;color:#F15F61;}
+.ctrriheadh{font-size:24px;color:#4c4c4c;}
+.ctrriheadr{color:#F15F61;}
+
+.teamdesc{font-size:15px;color:#888888;width:630px;line-height:21px;}
+.abotxt{font-size:15px;color:#888888;line-height:21px;margin:0px 30px 0px 30px;width:830px;}
+.contxt{font-size:14px;color:#888888;line-height:21px;padding:0px 25px 0px 30px;}
+.contxt a{color:#888888;text-decoration:underline;}
+
+.rdmore a{float:right;color:#F15F61;font-size:14px;}
+.compcave{padding-left:25px;padding-right:25px;font-size:15px;color:#888888;}
+
+.teamhr{background:url(./img/line-seperator.gif);background-repeat:repeat-x;}
+.footer{border-top:1px solid #e9e9e9;height:20px;font-size:11px;}
+
+.ddimgtooltip{
+    box-shadow: 3px 3px 5px gray; /*shadow for CSS3 capable browsers.*/
+    -webkit-box-shadow: 3px 3px 5px gray;
+    -moz-box-shadow: 3px 3px 5px gray;
+    display:none;
+    position:absolute;
+    border:1px solid black;
+    background:white;
+    color: black;
+    z-index:2000;
+    padding: 4px;
+}
+#investments-main{
+    width: 100%;
+    float: left;
+}
+#investments-left{
+    float: left;
+    margin-left: 45px;
+    width: 600px;
+}
+.invest-comp{
+    border-bottom-color: #E9E9E9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    height: 61px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 20px;
+    width: 680px;
+}
+.invest-img-wrap{
+    text-align: center;
+    float: left;
+    width: 111px;
+}
+.invest-comp p{
+    color: #888888;
+    float: left;
+    font-size: 14px;
+    margin-left: 80px;
+    width: 450px;
+}
+.invest-comp p span{
+    color:#000;
+    font-weight: bold;
+}
+#special{
+    margin-top: -10px;
+}
+#investments-right{
+    float:right;
+    width: 205px;
+    height: 420px;
+    background-color: #F5F5F5;
+    margin-right: 45px;
+}
+#investments-right h4{
+    margin: 0;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+    background-color: #a9a9a9;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+.right-img-wrap{
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 26px;
+}
+#spec-2{
+    border-bottom: none;
+}
+#spec-2 p{
+    margin-top: 10px;
+}
+#prev-investments-wrap{
+    width: 100%;
+    border-top:1px solid #e9e9e9;
+    height: 400px;
+    float: left;
+    margin-top: 40px;
+
+}
+#prev-invest{
+    width: 880px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #f5f5f5;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    border-bottom:1px solid #e9e9e9;
+}
+#prev-invest h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: #f15f61;
+    margin: 0;
+}
+#prev-invest p{
+    color: #888888;
+    font-size: 14px;
+    margin: 0;
+}
+.prev-invest-img-wrap{
+    border-bottom: 1px solid #e9e9e9;
+    width: 880px;
+    height: 80px;
+    margin-top: 10px;
+}
+.prev-invest-img-wrap a{
+    height: 60px;
+    width: 144px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    float: left;display: block;
+}
+
+.content{
+    color: #484848;
+    font-family: arial;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#twitter-wrapper{
+    width: 250px;
+    height: 400px;
+    float: left;
+    margin-left: 40px;
+
+}
+#follow{
+    float: left;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#twitter{
+    float: left;
+    width: 205px;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    height: 370px;
+}
+
+#updates{
+    background-color: #A0A0A0;
+    height: 26px;
+}
+#twitter-logo{
+    float: right;
+    margin-right: 5px;
+    position: relative;
+    top: -30px;
+}
+
+#tweet-body{
+    margin-top: -1px;
+    position: relative;
+    top: 10px;
+}
+
+.twtr-ft img{display: none !important}
+#bottom-bracket{
+    clear: left;
+    float: right;
+}
+
+#update{
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+    left: 10px;
+    line-height: 16px;
+    position: relative;
+    top: 5px;
+}
+
+#company-tweets{
+    float: right;
+}
+#head-wrapper{
+    height: 25px;
+}
+
+.soon{
+    text-align: center;
+    font-size: 26px;
+}

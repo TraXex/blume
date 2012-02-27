@@ -1,0 +1,286 @@
+<!DOCTYPE htm PUBLIC "-//W3C//DTD htm 4.01 Transitional//EN" "http://www.w3.org/TR/htm4/loose.dtd">
+<htm>
+    <head>
+        <title> BlumeVenture Advisors - Team </title>
+        <meta name="Generator" content="EditPlus">
+        <meta name="Author" content="">
+        <meta name="Keywords" content="">
+        <meta name="Description" content="">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script>
+            function show(divnm){
+                document.getElementById(divnm).style["display"]="block";
+                document.getElementById(divnm).style["visibility"]="visible";
+            }
+
+            function hide(divnm){
+                document.getElementById(divnm).style["display"]="none";
+                document.getElementById(divnm).style["visibility"]="hidden";
+            }
+            function changebg(invteam){
+                if(invteam == 'invteam'){ //alert(' was here = '+invteam+'indexleft');
+                    document.getElementById(invteam+'indexleft').style.background ="url('img/bv_11.gif')";
+                    document.getElementById(invteam+'indexright').style.background ="url('img/bv_13.gif')";
+                    document.getElementById(invteam+'_a').style.color ="#f4f4f4";
+                    document.getElementById('advteam_a').style.color ="#000000";
+                    document.getElementById('domexp_a').style.color ="#000000";
+                    document.getElementById('advteamindexleft').style.background ="";
+                    document.getElementById('advteamindexright').style.background ="";
+                    document.getElementById('domexpindexleft').style.background ="";
+                    document.getElementById('domexpindexright').style.background ="";
+
+                }
+                if(invteam == 'advteam'){ //alert(' was here = '+invteam+'indexleft');
+                    document.getElementById(invteam+'indexleft').style.background ="url('img/bv_11.gif')";
+                    document.getElementById(invteam+'indexright').style.background ="url('img/bv_13.gif')";
+                    document.getElementById('invteam_a').style.color ="#000000";
+                    document.getElementById('advteam_a').style.color ="#f4f4f4";
+                    document.getElementById('domexp_a').style.color ="#000000";
+                    document.getElementById('domexpindexleft').style.background ="";
+                    document.getElementById('domexpindexright').style.background ="";
+                    document.getElementById('invteamindexleft').style.background ="";
+                    document.getElementById('invteamindexright').style.background ="";
+
+                }
+                if(invteam == 'domexp'){ //alert(' was here = '+invteam+'indexleft');
+                    document.getElementById(invteam+'indexleft').style.background ="url('img/bv_11.gif')";
+                    document.getElementById(invteam+'indexright').style.background ="url('img/bv_13.gif')";
+                    document.getElementById('invteam_a').style.color ="#000000";
+                    document.getElementById('advteam_a').style.color ="#000000";
+                    document.getElementById('domexp_a').style.color ="#f4f4f4";
+                    document.getElementById('invteamindexleft').style.background ="";
+                    document.getElementById('invteamindexright').style.background ="";
+                    document.getElementById('advteamindexleft').style.background ="";
+                    document.getElementById('advteamindexright').style.background ="";
+
+                }
+            }
+        </script>
+    </head>
+
+    <body onLoad="javascript:changebg('invteam');">
+        <div class="header">
+            <div class="bdy">
+                <div class='fl'><a href="index.htm"><img src="img/bv_03.gif" border="0"></a></div>
+                <div class='fr menu'>
+                    <div style="height:56px;">&nbsp;</div>
+                    <div style="height:15px;">
+                        <div class="fl menutabs"><a href="index.htm">Home</a></div>
+                        <div class="fl menutabs"><a href="about.htm">About Us</a></div>
+                        <div class="fl menutabs"><a href="team.htm" style="color:black">Team</a></div>
+                        <div class="fl menutabs"><a href="companies.htm">Portfolio</a></div>
+                        <div class="fl menutabs"><a href="contact.htm">Contact</a></div>
+                        <div class="fl menutabs"><a href="http://www.blumeventures.com/jobs">Jobs</a></div>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="cl"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bdy">
+            <div class="headbott"></div>
+            <div class="cl"></div>
+            <div class="ctrbdy" style="margin-bottom:20px">
+
+                <div class="fl ctrle" style="width:270px;margin:0px 30px 0px 0px;">
+                    <div><img src="img/team-heading_03.gif" /></div>
+                    <div style="margin-left:5px;">
+                        <div class="fl" id="invteamindexleft" name="invteamindexleft" style="width:29px;height:29px;"></div>
+                        <div  class="fl" id="invteamindexright" name="invteamindexright" style="width:236px;height:29px;"><a href="javascript:show('invteam');hide('advteam');hide('domexp');changebg('invteam');" id="invteam_a" style="color:#000000;text-decoration: none;padding-left:10px;">Investing Team</a></div>
+                        <div class="cl"></div>
+                    </div>
+                    <div style="margin-left:5px;">
+                        <div class="fl" id="advteamindexleft" name="advteamindexleft" style="width:29px;height:29px;"></div>
+                        <div  class="fl" id="advteamindexright" name="advteamindexright"  style="width:236px;height:29px;"><a href="javascript:show('advteam');hide('invteam');hide('domexp');changebg('advteam');" id="advteam_a" style="color:#000000;text-decoration: none;padding-left:10px;">Blume Advisors</a></div>
+                        <div class="cl"></div>
+                    </div>
+                    <div style="margin-left:5px;">
+                        <div class="fl" id="domexpindexleft" name="domexpindexleft" style="width:29px;height:29px;"></div>
+                        <div  class="fl" id="domexpindexright" name="domexpindexright"  style="width:236px;height:29px;"><a href="javascript:show('domexp');hide('invteam');hide('advteam');changebg('domexp');" id="domexp_a"style="color:#000000;text-decoration: none;padding-left:10px;">Portfolio Mentors</a></div>
+                        <div class="cl"></div>
+                    </div>
+                    <div style="margin-left:41px;margin-top:5px;" class="teamdesc">We are expanding this Team..</div>
+                </div>
+                <div class="fl"  style="width:630px;margin:70px 30px 0px 0px;"">
+                     <!-- investing team start -->
+                     <div id="invteam" name="invteam"><!--  style="visibility:hidden;display:none" -->
+                        <div class="ctrrihead">Karthik Reddy,&nbsp;<span style="font-size:16px;color:#888888">Managing Partner</font></div>
+                        <div class="teamhr">&nbsp;</div>
+
+                        <div style="height:5px;"></div>
+                        <div class="fr teamdesc">Karthik has over 15 years of finance, investment banking, technology and operations experience. Since returning to India in 2006, he has been a media investment banker with SSKI (now part of IDFC), and a part of Brand Capital / Private Treaties at Times Group (where he was a permanent member of the Investment Committee and has sponsored over 50 investments in 3 years) and most importantly, as an angel investor at Mumbai Angels since 2008, where he has made about 10 investments to date.
+                            <div class="rdmore" id="kareddyrd" name="kareddyrd"><a href="javascript:show('kareddy');hide('kareddyrd');">Read more...</a></div>
+                            <div id="kareddy" name="kareddy" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('kareddyrd');hide('kareddy');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />Karthik has invested in several companies including Apalya, Speakwell, AWACS, Insta Health, and is also on the board of two - Algorhythm and Asiatic Clinical. He is also an Advisor and Board Member of Earth2Orbit. He began his career at American Express Bank in Mumbai, then moved to the US, where he worked at ABN AMRO Investment Banking, a startup - Softalia, and at an equity exchange - Instinet (a Reuters company, then sold to Nasdaq). He is an engineer from IIT Roorkee, and holds an MBA both from IIM Bangalore and the Wharton School.</div>
+                            <br />
+                            <div class="cl" style="height:20px;"></div>
+                        </div>
+                        <div class="ctrrihead">Sanjay Nath,&nbsp;<span style="font-size:16px;color:#888888">Managing Partner</font></div>
+                        <div class="teamhr">&nbsp;</div>
+                        <div style="height:5px;"></div>
+                        <div class="fr teamdesc">
+					Sanjay has over 15 years of entrepreneurial, business development, management consulting and
+					operations experience. He spent 7 years between PwC Consulting and IBM Global Services'
+					Silicon Valley offices, advising and working closely with leading high tech clients like HP/
+					Compaq, Sun Microsystems, Intel and AT&T. Before his return to India in 2010, he co founded
+					and ran a Legal Process Outsourcing (LPO) company. Sanjay has been a member of the
+					Mumbai Angels, one of India's leading angel groups, since its inception in 2006. He has made
+					8 investments across mobile, online travel, software, healthcare. Sanjay was an early investor in
+					InMobi (formerly mKhoj), one of India's best known angel-funded success stories.					
+                            <div class="rdmore" id="sanjrd" name="sanjrd"><a href="javascript:show('sanj');hide('sanjrd');">Read more...</a></div><br />
+                            <div id="sanj" name="sanj" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('sanjrd');hide('sanj');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />
+
+					In the US, Sanjay was a Principal with IBM Global Services and earlier a Consultant with PwC in a similar role. One of his key global,
+					transformational projects was the HP/Compaq merger, where he advised and closely worked with senior executives and managers on a global scale.Early in his career, Sanjay supported the initial growth of Kanbay which had a successful IPO on the Nasdaq in '04, and was then acquired by Cap Gemini Ernst & Young for $1.25 billion in 2006. Sanjay brings a strong global network of investors,
+					entrepreneurs and professionals across the US, South East Asia and India. He is passionate about helping entrepreneurs and is active in associations including TiE (where he is a Charter Member), Mumbai Angels, and The Churchill Club. Sanjay is an engineer from BITS, Pilani
+					and holds an MBA from UCLA's Anderson School of Graduate Management.</div><br />
+
+                        </div>
+                        <div class="ctrrihead">Adit Parekh&nbsp;</div>
+                        <div class="teamhr">&nbsp;</div>
+
+                        <div style="height:5px;"></div>
+                        <div class="fr teamdesc">Adit has over 5 years of entrepreneurial, technology, management consulting and venture capital experience. He spent 4 years working with start-ups and SMEs in the Biotech, Telecom, Logistics and Travel space. The Biotech firm in the bay-area was angel backed while the Telecom firm in Bangalore got acquired by SemIndia. He was part of the investment team at Aavishkaar, a social venture capital fund along with currently being a member of the Mumbai Angels, one of India's leading angel groups.
+                            <div class="rdmore" id="aditrd" name="aditrd"><a href="javascript:show('adit');hide('aditrd');">Read more...</a></div>
+                            <div id="adit" name="adit" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('aditrd');hide('adit');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />Adit pursued his Bachelors in Electrical Engineering from Brigham Young University and completed his MBA from Goa Institute of Management. He is an avid trekker and backpacker and has spent considerable time in the Himalayas.</div>
+                            <br />
+                            <div class="cl" style="height:20px;"></div>
+                        </div>
+                    </div><!-- investing team end -->
+                    <!-- advisory team start -->
+                    <div id="advteam" name="advteam" style="visibility:hidden;display:none">
+                        <div class="ctrrihead">Sridar Iyengar</div>
+
+                        <div class="teamhr">&nbsp;</div>
+                        <div style="height:5px;"></div>
+
+                        <div class="fr teamdesc">
+					Mr. Sridar Iyengar is an independent advisor to a number of companies in the U.S.-India corridor, with over 35 years of global business experience. 
+                            <div class="rdmore" id="srird" name="srird"><a href="javascript:show('sri');hide('srird');">Read more...</a></div>
+                            <div id="sri" name="sri" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('srird');hide('sri');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />
+					He has held various senior management roles at KPMG LLP, including serving on the Board of KPMG's Asia Pacific practice, and becoming KPMG India's Chairman and CEO. On his return to the US from India, Mr. Iyengar set up and headed KPMG's practice focused on early-stage companies. He has also made a number of private investments in a wide variety of sectors.<br />
+					Mr. Iyengar serves on the Boards of Infosys Technologies, ICICI Bank, Rediff.com and OnMobile, among other companies. A founding charter member of TiE (The Indus Entrepreneurs), Mr. Iyengar has been President of its Global, Silicon Valley and Mumbai units. He is also involved in the American India Foundation and the Janaagraha Center for Citizenship and Democracy. Mr. Iyengar holds a Bachelor of Commerce (Honors) from the University of Calcutta and is a Fellow of the Institute of Chartered Accountants in England and Wales.</div><br />
+                            <div class="cl" style="height:20px;"></div>
+                        </div>
+                        
+                        <div class="ctrrihead">Dr. Abdur Chowdhury</div><div class="teamhr">&nbsp;</div>
+
+                        <div style="height:5px;"></div>
+
+                        <div class="fr teamdesc">
+					 Dr. Abdur Chowdhury most recently was the Chief Scientist at Twitter.  Prior to Twitter, Dr. Chowdhury co-founded Summize, a real-time search engine that Twitter acquired in 2008. 
+                            <div class="rdmore" id="abdrd" name="abdrd"><a href="javascript:show('abd');hide('abdrd');">Read more...</a></div>
+                            <div id="abd" name="abd" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('abdrd');hide('abd');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />
+					 Dr Chowdhury has held positions at AOL as Chief Architect for Search, Georgetown's Computer Science Department and University of Maryland's Institute for Systems Research. His research interest lay in Information Retrieval focusing on making information accessible. Dr. Chowdhury holds a Ph.D. in Computer Science from the Illinois Institute of Technology.</div><br />
+                            <div class="cl" style="height:20px;"></div>
+                        </div>
+
+                        <div class="ctrrihead">Jayesh Parekh</div><div class="teamhr">&nbsp;</div>
+
+                        <div style="height:5px;"></div>
+
+                        <div class="fr teamdesc">
+				Jayesh is an active angel investor, with investments in various Venture Capital Funds in Silicon Valley and in start-up enterprises across the broad technology and media space.He is a Co-Founder of Sony Entertainment Television, a major television network launched in collaboration with Sony Pictures Entertainment, a division of Sony Corp, Japan.  
+                            <div class="rdmore" id="jayrd" name="jayrd"><a href="javascript:show('jay');hide('jayrd');">Read more...</a></div>
+                            <div id="jay" name="jay" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('jayrd');hide('jay');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />
+                                <p>He is a board member of Asvathaa (gaming & animation), Game Ventures (online gaming) and eBus (digital distribution of TV commercial).  Jayesh is the only independent Board member and an investment committee member of SONG, a fund owned by Soros, Omidyar Network and Google, which invests in SMEs in India that meet social objectives.</p>	Prior to the above ventures Jayesh spent 13 years at IBM in various sales positions based out of Houston (USA) and Singapore, where he was involved in the offshore team that restarted IBM sales to India in the early 90s.   He is an Investor-in-Residence at SMU, a TiE Charter Member, an Entrepreneur-in-Residence at INSEAD, and a member of 'Indian Angel Network'. Jayesh holds a Bachelors degree in Electrical Engineering from M. S. University in Baroda, India and a Masters degree in Electrical Engineering from the University of Texas at Austin, USA.  He is a Singapore citizen and lives in Singapore with his family.
+                                <div class="cl" style="height:20px;"></div>
+                            </div>
+                        </div>
+
+                        <div class="ctrrihead">Ashwin Mittal</div><div class="teamhr">&nbsp;</div>
+
+                        <div style="height:5px;"></div>
+
+                        <div class="fr teamdesc">
+				Ashwin has over 15 years of entrepreneurial, consulting, real estate and operations experience.  He currently manages two companies in the BPO/KPO Industry. The first, Cross-Tab (which he acquired from ICICI Ventures) provides KPO in the high value market research and data analytics space, and has been ranked by the Fortune Magazine as one of the top 100 outsourcing companies in the world for the past 3 years in a row.  
+                            <div class="rdmore" id="ashrd" name="ashrd"><a href="javascript:show('ash');hide('ashrd');">Read more...</a></div>
+                            <div id="ash" name="ash" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('ashrd');hide('ash');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />
+                                <p>Ashwin also set up and manages Inditech Solutions, which provides transaction processing outsourcing services in the Logistics, Finance and Government sectors.  He also plays a key role in the core real estate activities of the Mittal Group, the oldest Real Estate Developers in Mumbai.  Ashwin is a founder member of the Mumbai Angels, India's first organized angel investor group where he sits on their screening committee.</p>	Ashwin has past work experience in corporate treasury at Reliance Industries in Mumbai and strategy consulting with Cap Gemini Ernst & Young, in New York.  His articles on India's KPO industry have been published in leading global publications such as 'Research World' and 'Quirks'. He is an active member of the Entrepreneurs Organization's Mumbai chapter.  Ashwin has a Bachelors and a Masters degree in Commerce, is a qualified Chartered Accountant, and holds an MBA from both the Anderson School at UCLA and London Business School.
+                                <div class="cl" style="height:20px;"></div>
+                            </div></div>
+
+                        <div class="ctrrihead">Nandan Maluste</div><div class="teamhr">&nbsp;</div>
+
+                        <div style="height:5px;"></div>
+
+                        <div class="fr teamdesc">Mr. Maluste has over 35 years of experience working in senior management positions as an investment and private banker, management consultant, director of India's largest advertising firm, industrial entrepreneur, board member of private and listed companies and consultant to government.
+                            <div class="rdmore" id="nandrd" name="nandrd"><a href="javascript:show('nand');hide('nandrd');">Read more...</a></div>
+                            <div id="nand" name="nand" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('nandrd');hide('nand');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />
+					 Over the past five years he has developed core interest and passion for, and strong networks in, the clean energy and renewables sector. Apart from speaking regularly at professional, industry and academic, seminars, Mr. Maluste has presented to Parliament's Standing Committee on Finance. He has been published in R&D Management (Oxford), World Affairs (New Delhi), Business India (Mumbai), etc. been interviewed for the press, TV and radio, and addressed Rotary Clubs on three continents.  Mr. Maluste is Honorary Treasurer of the Bombay Gymkhana, chaired CRY-Child Rights & You, the Employment Skills task force of the Confederation of Indian Industry, Education for All Committee of the Rotary Club of Bombay, etc.<br /><br />
+
+					 Mr. Maluste was educated at the Cathedral and John Connon School, Mumbai; Indian Institute of Technology, Bombay (IIT); Manchester Business School, England, and is a Fellow of the Institute of Chartered Accountants in England & Wales.
+                            </div><br />
+
+                        </div>
+                    </div><!-- advisory team end -->
+                    <!-- domain expert start -->
+                    <div id="domexp" name="domexp" style="visibility:hidden;display:none">
+                        <div class="ctrrihead">Dileep Nath</div><div class="teamhr">&nbsp;</div>
+
+                        <div style="height:5px;"></div>
+
+                        <div class="fr teamdesc">
+					Mr. Dileep Nath is a successful owner-entrepreneur-investor and enjoys advising and mentoring start ups. He divides his time between India and Singapore and is keen to leverage the India Advantage in the India-Singapore-U.S. corridor. 
+                            <div class="rdmore" id="dilerd" name="dilerd"><a href="javascript:show('dile');hide('dilerd');">Read more...</a></div>
+                            <div id="dile" name="dile" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('dilerd');hide('dile');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />
+					Mr. Nath co-founded Kanbay in Chicago in 1989, and was instrumental in its growth and transformation into a global IT services player, with over 6,000 employees across four continents.<br />
+					As an early believer in India's competitive advantage, he led the setup of its India off-shore development centers, making Kanbay one of the first U.S. IT companies to provide Global Service Delivery anchored out of India. Mr. Nath's entrepreneurial success is evidenced in Kanbay's acquisition by Cap Gemini in February 2007, at a market capitalization of US$ 1.25 billion. Earlier, Mr. Nath practiced as an Attorney in the High Court at Bombay. He ranked first in the Solicitor's Examination, trained and worked with Crawford Bayley & Co. (one of India's leading law firms), and then set up independent practice. He has a B.A. (Hons.) and an L.L.B. from Bombay University.</div><br />
+                            <div class="cl" style="height:20px;"></div>
+
+                        </div>
+                        <div class="ctrrihead">Aditya Khurjekar - Mobile</div><div class="teamhr">&nbsp;</div>
+
+                        <div style="height:5px;"></div>
+
+                        <div class="fr teamdesc">
+					Aditya Khurjekar is Director, New Business Development at Verizon, responsible for identifying and incubating innovations to generate new revenue opportunities from adjacent and new ecosystems.
+                            <div class="rdmore" id="adird" name="adird"><a href="javascript:show('adi');hide('adird');">Read more...</a></div>
+                            <div id="adi" name="adi" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('adird');hide('adi');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />
+					Aditya previously established and managed two other new functions at Verizon: strategic portfolio management and wireless device strategy.  Over the last 15 years, Aditya has been an internal entrepreneur in large global technology companies, where he has conceived, built and led new organizations to address complex corporate challenges. Aditya holds an MBA in Finance & Management from the Stern School of Business at NYU, and an MS in Electrical Engineering.</div><br />
+                            <div class="cl" style="height:20px;"></div>
+                        </div>
+                        <div class="ctrrihead">Naresh Kripalani - Technology Products/Services</div><div class="teamhr">&nbsp;</div>
+
+                        <div style="height:5px;"></div>
+
+                        <div class="fr teamdesc">
+					Mr. Naresh Kripalani has over 30 years of global technology and business experience in the US-India corridor, including senior technical and business roles at reputed companies...
+                            <div class="rdmore" id="narerd" name="narerd"><a href="javascript:show('nare');hide('narerd');">Read more...</a></div>
+                            <div id="nare" name="nare" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('narerd');hide('nare');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />
+					including IBM, Onida, Mphasis and SAP. Mr. Kripalani holds a B.Tech (Honours) in Mechanical Engineering from IIT, Kharagpur and an MS in Operations Research from the University of California at Berkeley.  He is a member of the Mumbai Angels.</div><br />
+                            <div class="cl" style="height:20px;"></div>
+                        </div>
+                        <div class="ctrrihead">Tarun Mathur - Technology, Global Sales & Partnerships</div><div class="teamhr">&nbsp;</div>
+
+                        <div style="height:5px;"></div>
+
+                        <div class="fr teamdesc">
+					 Mr Tarun Mathur is the President of ECnet Limited, He has over 20 years global business experience across Engineering, Commercial, Consumer and Technology sectors. 
+                            <div class="rdmore" id="tarrd" name="tarrd"><a href="javascript:show('tar');hide('tarrd');">Read more...</a></div>
+                            <div id="tar" name="tar" style="visibility:hidden;display:none">
+                                <span class="rdmore"><a href="javascript:show('tarrd');hide('tar');">Close Bio&nbsp;&nbsp;&nbsp;</a></span><br />
+					 He has played a pivotal role in turn around and business startup situations. His core area of focus is on business operations and business strategy. He has deep experience in building and conceptualizing new products working closely with internal Research & Development and external teams that included Technology Licensors and Product Designers. He has been involved in complex global deals, joint ventures and strategic alliances across USA, Europe, Middle East and SE Asia. He is passionate about mentoring new companies and is TIE Charter Member in Singapore. He has been a visiting Faculty at Symbiosis and has won several Faculty awards. He sits as an Advisor with the Singapore Institute of Materials Management. Mr. Mathur holds a Masters of Science( Electronics) from the University of Pune and Masters of Business Administration from Symbiosis Institute of Business Management.  Tarun is based out of Singapore but travels to India, the US, Asia and Europe frequently on business.</div>
+                            <br /><br />
+
+                        </div>
+                    </div><!-- domain expert end -->
+                </div>
+
+                <img src="img/closing-bracket.gif" style="float:right;" /><div class="cl"></div>
+            </div>
+            <div class="footer" style="border-top:1px solid #e9e9e9;height:20px;"><center>copyright &copy Blume Venture Advisors</center></div>
+        </div>
+        </div>
+    </body>
+</htm>
